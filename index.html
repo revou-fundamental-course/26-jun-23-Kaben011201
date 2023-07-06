@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section id="mainheader">
+            <p id="logo"><b>BEN'S MART</b></p>
+            <nav id="navigation">
+                <a href="#Home">Home</a>
+                <a id="middle" href="#OurPackage">Our Package</a>
+                <a href="#CallUs">Call Us</a>
+            </nav>
+        </section>
+        <section id="title">
+            <h1 id="Home">WELCOME TO BEN'S MART</h1>
+            <p id="subtitle">Kami besar dengan kepercayaan pelanggan dan <br>kami memiliki visi untuk mengembangan produk kami hingga ke luar negeri.</p>
+        </section>
+    </header>
+    <main>
+        <section id="content">
+            <article id="leftcontent">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radiobtn" id="btn1">
+                        <input type="radio" name="radiobtn" id="btn2">
+                        <input type="radio" name="radiobtn" id="btn3">
+                        <input type="radio" name="radiobtn" id="btn4">
+
+                        <div class="slide first">
+                            <img src="assets\article1.jpg" alt="Condition in restaurant">
+                        </div>
+                        <div class="slide">
+                            <img src="assets\article2.jpg" alt="Condition in restaurant">
+                        </div>
+                        <div class="slide">
+                            <img src="assets\article3.jpg" alt="Condition in restaurant">
+                        </div>
+                        <div class="slide">
+                            <img src="assets\article4.jpg" alt="Condition in restaurant">
+                        </div>
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="btn1" class="manualbtn"></label>
+                        <label for="btn2" class="manualbtn"></label>
+                        <label for="btn3" class="manualbtn"></label>
+                        <label for="btn4" class="manualbtn"></label>
+                    </div>
+                </div>
+                <blockquote><q>Melayani Adalah Suatu Kehormatan Bukan Beban</q></blockquote>
+                <div id="supportcontent">
+                    <span class="material-icons-outlined">person</span>
+                    <div id="info">
+                        <h4>Bendry Lakburlawal</h4>
+                        <p><i>Mahasiswa, 21</i></p>
+                    </div>
+                </div>
+                <div id="benefit">
+                    <h4>Banyak bangetloh benefit yang akan kalian dapatkan lewat toko kami :</h4>
+                    <div class="pointofbenefit">
+                        <span class="number"><b>1</b></span>
+                        <p>Melayani dengan tulus, responsive kepada pelanggan<br>dan menjaga kenyamanan pelanggan.</p>
+                    </div>
+                    <div class="pointofbenefit">
+                        <span class="number"><b>2</b></span>
+                        <p>Diskon 50% akan diberikan untuk pelanggan yang baru pertama kali bergabung 
+                            dan untuk pelanggan lama yang belanja minimal Rp. 500,000 akan mendapatkan diskon 10%.</p>
+                    </div>
+                    <div class="pointofbenefit">
+                        <span class="number"><b>3</b></span>
+                        <p>Kualitas produk 100% dijamin halal dan bersih. Produk langsung dari luar negeri.</p>
+                    </div>
+                </div>
+            </article>
+            <section id="rightcontent">
+                <h3>Contact Us</h3>
+                <p id="info">Sales akan menghubungi anda dalam waktu 24 jam.</p><br>
+                <div>
+                    <form>
+                        <p class="username">
+                            <label for="">Your Name:</label><br>
+                            <input type="text" name="username" placeholder="First and last name" id="username" class="data">
+                        </p>
+                        <p class="email">
+                            <label for="">Email:</label><br>
+                            <input type="email" name="email" placeholder="example@gmail.com" class="data" id="email">
+                        </p>
+                        <p class="phone"> 
+                            <label for="">Phone Number:</label><br>
+                            <input type="tel" name="phone" placeholder="example: 08**-****-****" id="phone" class="data">
+                        </p>
+                        <p class="message">
+                            <label for="">Message:</label><br>
+                            <textarea name="biografi" id="message"  class="data" rows="5" placeholder="Input your message"></textarea>
+                        </p>
+                        <button id="send" class="button" type="submit"><b>SEND</b></button>
+                    </form>
+                </div>
+            </section>
+        </section>
+
+        <!-- Our Package -->
+        <section id="OurPackage">
+            <h1>Our Package</h1>
+            <div class="Package">
+                <div class="list">
+                    <span class="material-icons-outlined">lightbulb</span>
+                    <div class="explain">
+                        <h3>Paket Jumbo 1 ~ Diskon 40%</h3>
+                        <p><b>
+                            <li>Buah 5kg</li>
+                            <li>Beras 10kg</li>
+                            <li>Sayur 5kg</li>
+                            <li>Rempah-rempah 5kg</li>
+                            <li>Susu 10pcs</li>
+                            <li>Air Mineral 3 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <span class="material-icons-outlined">lightbulb</span>
+                    <div class="explain">
+                        <h3>Paket Jumbo 2 ~ Diskon 35%</h3>
+                        <p><b>
+                            <li>Buah 5kg</li>
+                            <li>Beras 10kg</li>
+                            <li>Sayur 5kg</li>
+                            <li>Rempah-rempah 3kg</li>
+                            <li>Susu 5pcs</li>
+                            <li>Air Mineral 1 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <span class="material-icons-outlined">lightbulb</span>
+                    <div class="explain">
+                        <h3>Paket Jumbo 3 ~ Diskon 30%</h3>
+                        <p><b>
+                            <li>Buah 5kg</li>
+                            <li>Beras 5kg</li>
+                            <li>Sayur 2kg</li>
+                            <li>Rempah-rempah 3kg</li>
+                            <li>Susu 5pcs</li>
+                            <li>Air Mineral 1 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="Package">
+                <div class="list">
+                    <span class="material-icons-outlined">grade</span>
+                    <div class="explain">
+                        <h3>Paket Reguler 1 ~ Diskon 20%</h3>
+                        <p><b>
+                            <li>Beras 5kg</li>
+                            <li>Sayur 5kg</li>
+                            <li>Rempah-rempah 5kg</li>
+                            <li>Air Mineral 3 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <span class="material-icons-outlined">grade</span>
+                    <div class="explain">
+                        <h3>Paket Reguler 2 ~ Diskon 15%</h3>
+                        <p><b>
+                            <li>Beras 5kg</li>
+                            <li>Sayur 3kg</li>
+                            <li>Rempah-rempah 3kg</li>
+                            <li>Air Mineral 2 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <span class="material-icons-outlined">grade</span>
+                    <div class="explain">
+                        <h3>Paket Reguler 3 ~ Diskon 10%</h3>
+                        <p><b>
+                            <li>Beras 2kg</li>
+                            <li>Sayur 3kg</li>
+                            <li>Rempah-rempah 2kg</li>
+                            <li>Air Mineral 1 Galon</li>
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- isi footer -->
+    <footer id="end">
+        <section id="CallUs">
+            <div id="closing">
+                <h1>Thanks For Visiting Us</h1>
+                <p>Terima kasih telah mengunjungin website kami</p>
+                <button class="button" id="contact" type=""><b>CALL TO ACTION</b></button>
+            </div>
+        </section>
+        <section id="copy">
+            <p id="logo2"><b>BEN'S MART</b></p>
+            <div id="privacy">
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+            <p>&copy; 2023 Ben's Mart</p>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
